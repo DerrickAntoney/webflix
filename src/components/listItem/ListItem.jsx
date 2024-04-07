@@ -21,9 +21,9 @@ const ListItem = ({index}) => {
               <ThumbUpAltOutlined className='icon'/>
               <ThumbDownOutlined className='icon'/>
             </div>
-            <div className="itemInfoItem">
+            <div className="itemInfoTop">
               <span className="title">1hour 14mins</span>
-              <span className="limit">2021</span>
+              <span className="limit">+21</span>
               <span className="year">1999</span>
             </div>
             <div className="desc">

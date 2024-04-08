@@ -1,0 +1,85 @@
+.register {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to bottom, rgba(0,0,0,0)0%, rgba(0,0,0,1)100%),
+    url("../../../assets/netflix-wallpapers.jpg");
+    background-size: cover;
+    position: relative;
+}
+
+.top {
+    .wrapper {
+        padding: 20px 50px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .logo {
+            height: 40px;
+        }
+
+        .loginButton {
+            background-color: red;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            padding: 10px 20px;
+            font-size: 16px;
+            font-weight: 500;
+            cursor: pointer;
+            z-index: 9;
+    }
+}
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+
+    h1 {
+        font-size: 50px;
+        font-weight: 600;
+        margin-bottom: 20px;
+    }
+
+    p {
+        font-size: 20px;
+    }
+
+    .input {
+        width: 50%;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-radius: 5px;
+        margin-top: 20px;
+        background-color: white;
+
+        input {
+            flex: 9;
+            height: 100%;
+            border: none;
+            padding: 0 10px;
+        }
+
+        .registerButton {
+            flex: 3;
+            background-color: red;
+            color: white;
+            border: none;
+            height: 100%;
+            font-size: 22px;
+            cursor: pointer;
+
+        }
+    }
+}

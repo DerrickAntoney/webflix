@@ -18,17 +18,6 @@
             height: 40px;
         }
 
-        .signUpButton {
-            background-color: red;
-            color: white;
-            border: none;
-            border-radius: 5px;
-            padding: 10px 20px;
-            font-size: 16px;
-            font-weight: 500;
-            cursor: pointer;
-            z-index: 9;
-    }
 }
 }
 
@@ -44,5 +33,44 @@
     flex-direction: column;
     color: white;
 
-    
+    form {
+        width: 350px;
+        height: 350px;
+        padding: 20px;
+        border-radius: 5px;
+        background-color: var(--main-color);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+
+        input {
+            height: 40px;
+            border-radius: 5px;
+            background-color: gray;
+            color: white;
+            border: none;
+            padding-left: 10px;
+            
+            
+        }
+
+        button {
+            height: 40px;
+            background-color: red;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 18px;
+            font-weight: 500;
+            cursor: pointer;
+
+        }
+
+        span {
+            color: gray;
+            b {
+                color: white;
+            }
+        }
+    }
 }
